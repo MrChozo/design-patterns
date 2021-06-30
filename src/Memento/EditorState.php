@@ -3,7 +3,13 @@
 
 namespace Memento;
 
-
+/**
+ * Class EditorState
+ *
+ * Represents the Memento role from the "Big 4"'s Memento design pattern.
+ *
+ * @package Memento
+ */
 class EditorState
 {
     /**
@@ -16,9 +22,6 @@ class EditorState
         $this->content = $content;
     }
 
-    /**
-     * @return mixed
-     */
     public function getContent(): string
     {
         return $this->content;

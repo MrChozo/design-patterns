@@ -3,7 +3,13 @@
 
 namespace Memento;
 
-
+/**
+ * Class History
+ *
+ * Represents the Caretaker role from the "Big 4"'s Memento design pattern.
+ *
+ * @package Memento
+ */
 class History
 {
     /**
