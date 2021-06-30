@@ -1,0 +1,14 @@
+{
+    "name": "mrchozo/design-patterns",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Brian Weston",
+            "email": "brianw@webriculture.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"Memento\\": "src/Memento"}
+    }
+}
